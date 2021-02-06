@@ -1,0 +1,19 @@
+{
+  "name": "nodeinit",
+  "version": "1.0.0",
+  "description": "proyecto inicial con node js express y node-postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeisongmz/nodeinit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeisongmz/nodeinit/issues"
+  },
+  "homepage": "https://github.com/yeisongmz/nodeinit#readme"
+}
