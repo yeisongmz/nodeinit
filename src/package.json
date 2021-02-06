@@ -1,0 +1,24 @@
+{
+  "name": "nodeinit",
+  "version": "1.0.0",
+  "description": "proyecto inicial con node js express y node-postgres",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeisongmz/nodeinit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeisongmz/nodeinit/issues"
+  },
+  "homepage": "https://github.com/yeisongmz/nodeinit#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1"
+  }
+}
