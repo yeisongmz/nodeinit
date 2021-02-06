@@ -2,7 +2,7 @@
   "name": "nodeinit",
   "version": "1.0.0",
   "description": "proyecto inicial con node js express y node-postgres",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
