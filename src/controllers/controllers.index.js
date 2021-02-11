@@ -1,12 +1,14 @@
-
+const db = require('../models/script')
 
 
 const getUsers = (req, res) => {
-    res.send('Lista de usuarios');
-  }
+   // res.send();
+  };
+
   const getClients = (req, res) => {
-    res.send('Lista de clientes');
-  }
+    res.send(db.getClientes);
+    
+  };
 
 module.exports = {
     getUsers,
