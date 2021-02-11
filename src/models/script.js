@@ -8,4 +8,19 @@ const pool = new Pool({
     port: 5432,
 })
 
-pool.query('SELECT NOW()')
+const getUsuarios = async () => {
+   const res = await pool.query('SELECT* FROM usuarios');
+   console.log(res.rows)
+   console.log('ya fue hecha la consulta')
+};
+
+const getClientes = async () => {
+    await pool.query('SELECT* FROM usuarios')
+};
+
+module.exports = {
+    getUsuarios,
+    getClientes
+}
+
+getUsuarios();
