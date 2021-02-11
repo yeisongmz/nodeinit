@@ -3,7 +3,7 @@ const router = Router();
 const controllers = require('../controllers/controllers.index')
 
 
-router.use('/users', controllers.getUsers);
-router.use('/clients', controllers.getClients);
+router.use('/usuarios', controllers.getUsers);
+router.use('/clientes', controllers.getClients);
 
 module.exports =  router;
